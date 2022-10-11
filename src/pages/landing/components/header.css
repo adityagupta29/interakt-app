@@ -1,28 +1,52 @@
-
-
-.header {
-     width: 50%;
-    padding-left: 200px;
-    padding-top: 150px;
-    padding-bottom: 40px;
-    font-weight: bold;
-   
-    font-family: "Lucida Console", "Courier New", monospace;
+.container {
+   padding: 0px 0px;
 }
-img {
-    width: 570px;
-    height: 550px;
-    padding-left: 900px;
-    padding-top: 0px;
- }
- h1 {
-    padding-top: 120px;
-   padding-right: 150px;
-   padding-left: 15px;
- }
- .container {
-    display: flex;
- }
- 
- 
- 
+
+.header{
+ display: flex;
+ padding: 120px;
+}
+
+.header .header-left{
+   width: 50%;
+   padding-left: 60px;
+}
+
+.header .header-left h4{
+   font-size: 18px;
+}
+.header .header-left h1{
+   font-size: 58px;
+}
+.header .header-left ul{
+   list-style: none;
+   font-size: 18px;
+   display: grid;
+   padding: 0px;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+}
+.header .header-left .ul li{}
+.header .header-left .buttons{
+   display: flex;
+}
+.header .header-left button{
+   background-color: #F8B434;
+   padding: 20px;
+   font-size: 18px;
+   border: none;
+   border-radius: 10px;
+}
+.header .header-left p{
+   font-size: 14px;
+}
+
+.header-right{
+   width: 50%;
+   text-align: right;
+
+}
+
+.header-right img {
+   width: 500px;
+}
